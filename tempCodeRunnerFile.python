@@ -1,0 +1,33 @@
+class PerInfo:
+    def __init__(self):
+        self.name = input("Name: ")
+        self.phn = input("Phone No.: ")
+
+    def show(self):
+        print("Name:", self.name)
+        print("Phone No.:", self.phn)
+
+class Addr:
+    def __init__(self):
+        self.hno = input("House No.: ")
+        self.city = input("City: ")
+        self.state = input("State: ")
+
+    def show(self):
+        print("House No.:", self.hno)
+        print("City:", self.city)
+        print("State:", self.state)
+
+class Record(PerInfo, Addr):
+    def __init__(self):
+        PerInfo.__init__(self)
+        Addr.__init__(self)
+
+    def result(self):
+        print("Address Book:")
+        PerInfo.show(self)
+        Addr.show(self)
+
+# Create an instance of Record and call the result method
+obj = Record()
+obj.result()
