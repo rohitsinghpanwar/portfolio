@@ -69,7 +69,11 @@ export default function About() {
           </div>
 
           <h1 className="font-bold text-3xl ">DevOps Skills:</h1>
-          <div className="list-none  flex flex-wrap lg:flex-row gap-2 lg:h-16  lg:gap-10 justify-evenly">
+          <div className="list-none  flex flex-wrap lg:flex-row gap-2 lg:h-16  lg:gap-10 justify-evenly">   
+             <div className="group relative">
+              <li className="border-4 border-double border-black p-1 lg:p-3  text-xl font-bold rounded-xl  h-full"><code className="z-10 relative transition-all ease-linear  duration-500 group-hover:text-white">AWS</code></li>
+              <div className="absolute bg-black  bottom-0 w-0 h-full    rounded-xl border-4 border-double transition-all ease-in-out  duration-500 invisible text-xl font-bold group-hover:w-full group-hover:visible"></div>
+            </div>
             <div className="group relative">
               <li className=" text-xl border-4 border-double border-black p-1 lg:p-3  font-bold rounded-xl h-full text-center  "><code className="z-10 relative transition-all  ease-linear  duration-500 group-hover:text-white">Linux</code></li>
               <div className="absolute bg-black  bottom-0  w-0 h-full    rounded-xl border-4 border-double transition-all ease-linear    duration-500 invisible text-xl font-bold group-hover:w-full  group-hover:visible"></div>
@@ -78,20 +82,17 @@ export default function About() {
               <li className="border-4 border-double border-black p-1 lg:p-3 text-xl font-bold rounded-xl h-full text-center  "><code className="z-10 relative transition-all ease-linear  duration-500 group-hover:text-white">Docker</code></li>
               <div className="absolute bg-black  bottom-0  w-0 h-full    rounded-xl border-4 border-double transition-all ease-linear    duration-500 invisible text-xl font-bold group-hover:w-full group-hover:visible"></div>
             </div>
-            <div className="group relative">
-              <li className="border-4 border-double border-black p-1 lg:p-3  text-xl font-bold rounded-xl  h-full"><code className="z-10 relative transition-all ease-linear  duration-500 group-hover:text-white">Kubernetes</code></li>
-              <div className="absolute bg-black  bottom-0 w-0 h-full   rounded-xl border-4 border-double transition-all ease-in-out  duration-500 invisible text-xl font-bold group-hover:w-full group-hover:visible"></div>
-            </div>
+
             <div className="group relative ">
               <li className="  border-4 border-double border-black p-1 lg:p-3 text-xl font-bold rounded-xl h-full  text-center"><code className="z-10 relative transition-all  ease-linear  duration-500 group-hover:text-white">Gitlab</code></li>
               <div className="absolute bg-black  bottom-0  w-0 h-full   rounded-xl border-4 border-double transition-all ease-linear    duration-500 invisible text-xl font-bold group-hover:w-full group-hover:visible"></div>
             </div>
-          
-            
-            <div className="group relative">
-              <li className="border-4 border-double border-black p-1 lg:p-3  text-xl font-bold rounded-xl  h-full"><code className="z-10 relative transition-all ease-linear  duration-500 group-hover:text-white">AWS</code></li>
-              <div className="absolute bg-black  bottom-0 w-0 h-full    rounded-xl border-4 border-double transition-all ease-in-out  duration-500 invisible text-xl font-bold group-hover:w-full group-hover:visible"></div>
+             <div className="group relative">
+              <li className="border-4 border-double border-black p-1 lg:p-3  text-xl font-bold rounded-xl  h-full"><code className="z-10 relative transition-all ease-linear  duration-500 group-hover:text-white">Kubernetes</code></li>
+              <div className="absolute bg-black  bottom-0 w-0 h-full   rounded-xl border-4 border-double transition-all ease-in-out  duration-500 invisible text-xl font-bold group-hover:w-full group-hover:visible"></div>
             </div>
+            
+
 
           </div>
 
