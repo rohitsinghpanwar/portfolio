@@ -20,7 +20,7 @@ export default function Project() {
 
   return (
     <>
-      <div className="  bg-gradient-to-l from-blue-300 to-red-300  p-5 h-screen lg:h-full ">
+      <div className="  bg-gradient-to-l from-blue-300 to-red-300  p-5 h-full ">
         <div className="gap-5 p-3 flex flex-col items-center">
           <h1 className="font-bold text-3xl lg:text-5xl text-white  pb-2 ">Web Projects</h1>
           <div className="flex gap-5 lg:gap-10 ">
