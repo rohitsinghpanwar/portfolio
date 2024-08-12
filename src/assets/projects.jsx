@@ -8,6 +8,7 @@ import brick from "./Images/brick.jpg"
 import rock from "./Images/paper.png"
 import tap from "./Images/taptotune.png"
 import rupee from "./Images/rupee.png"
+import task from "./Images/task.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -51,12 +52,21 @@ export default function Project() {
 
             </div>
 
-                  <div className="flex flex-col w-[8.5rem]  lg:h-80 lg:w-64 relative items-center  transition-all ease-in-out duration-700   hover:scale-110">
+              <div className="flex flex-col w-[8.5rem]  lg:h-80 lg:w-64 relative items-center  transition-all ease-in-out duration-700   hover:scale-110">
+              <img src={task} alt="" className="h-full rounded-xl  " />
+              <div className="absolute w-[90%] lg:w-5/6 bg-white items-center flex flex-col rounded-md -bottom-6 lg:-bottom-2 drop-shadow-xl  lg:text-lg text-sm text-center bg-opacity-95">
+                <h1>Advance Task Manager </h1>
+                <Link to={"http://todo.k2cloud.free.nf/"} className=" underline underline-offset-2 text-red-600 pb-1 ">Check it now</Link>
+              </div>
+            </div>
+                  <div className="flex flex-col w-[8.5rem]  lg:h-80 lg:w-64 relative items-center  transition-all ease-in-out duration-700   hover:scale-110 right-[55%] lg:right-0">
                 <img src={tap} alt="" className="h-full rounded-xl  " />
                 <div className="absolute w-[90%] lg:w-5/6 bg-white items-center flex flex-col rounded-md -bottom-6 lg:-bottom-2 drop-shadow-xl  lg:text-lg text-sm text-center bg-opacity-95 lg:p-2">
                   <h1>TapToTune-Music Player </h1>
                 </div>
               </div>
+
+
 </div>
 
 
